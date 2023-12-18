@@ -11,13 +11,13 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 1. Clona este repositorio o descarga el código.
 
     ```bash
-    git clone https://github.com/rickyurvinaUCN/Prueba3IWM
+    git clone https://github.com/rickyurvinaUCN/RecuperativoIWM
     ```
 
 2. Navega al directorio del proyecto.
 
     ```bash
-    cd Prueba3IWM
+    cd RecuperativoIWM
     ```
 
 3. Instala las dependencias.
@@ -38,16 +38,16 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 
 ## Rutas disponibles
 
-- **Posts:** `http://localhost:3000/orders`
-- **Comentarios:** `http://localhost:3000/comments`
+- **Orders:** `http://localhost:3000/orders`
+- **products:** `http://localhost:3000/products`
 
 Puedes realizar solicitudes GET, POST, PUT y DELETE a estas rutas para interactuar con los datos simulados.
 
 ## Ejemplo de solicitud
 
 ```bash
-# Obtener todos los posts
+# Obtener todas las ordenes
 http://localhost:3000/orders
 
-# Obtener un post específico (reemplaza {postId} con el ID del post)
-http://localhost:3000/orders/{postId}
+# Obtener una orden específica (reemplaza {orderId} con el ID de la orden)
+http://localhost:3000/orders/{orderId}

@@ -1,40 +1,42 @@
 {
   "orders": [
     {
-      "id": 1,
-      "code": "P001",
-      "rut": "123456789",
-      "direction": "Street 123, City",
-      "total": 150.50,
-      "quantity": 3,
-      "products": [1, 2, 3]
-    },
-    {
       "id": 2,
       "code": "P002",
       "rut": "987654321",
       "direction": "Avenue XYZ, City",
-      "total": 75.20,
+      "total": 60.75,
       "quantity": 2,
-      "products": [4, 5, 6]
+      "products": [
+        4,
+        5
+      ]
     },
     {
       "id": 3,
       "code": "P003",
       "rut": "111223344",
       "direction": "Main St, Town",
-      "total": 120.75,
-      "quantity": 4,
-      "products": [7, 8, 9]
+      "total": 88.9,
+      "quantity": 3,
+      "products": [
+        7,
+        8,
+        9
+      ]
     },
     {
       "id": 20,
       "code": "P020",
       "rut": "555666777",
       "direction": "Ocean Blvd, Beach",
-      "total": 200.00,
-      "quantity": 5,
-      "products": [16, 17, 18]
+      "total": 112.3,
+      "quantity": 3,
+      "products": [
+        16,
+        17,
+        18
+      ]
     }
   ],
   "products": [
@@ -46,12 +48,12 @@
     {
       "id": 2,
       "name": "Product B",
-      "price": 30.50
+      "price": 30.5
     },
     {
       "id": 3,
       "name": "Product C",
-      "price": 22.00
+      "price": 22
     },
     {
       "id": 4,
@@ -61,77 +63,77 @@
     {
       "id": 5,
       "name": "Product E",
-      "price": 45.00
+      "price": 45
     },
     {
       "id": 6,
       "name": "Product F",
-      "price": 12.90
+      "price": 12.9
     },
     {
       "id": 7,
       "name": "Product G",
-      "price": 18.60
+      "price": 18.6
     },
     {
       "id": 8,
       "name": "Product H",
-      "price": 27.30
+      "price": 27.3
     },
     {
       "id": 9,
       "name": "Product I",
-      "price": 40.00
+      "price": 40
     },
     {
-      "id": 19,
+      "id": 10,
       "name": "Product S",
       "price": 33.25
     },
     {
-      "id": 20,
+      "id": 11,
       "name": "Product T",
-      "price": 55.60
+      "price": 55.6
     },
     {
-      "id": 21,
+      "id": 12,
       "name": "Product U",
-      "price": 28.90
+      "price": 28.9
     },
     {
-      "id": 22,
+      "id": 13,
       "name": "Product V",
       "price": 19.75
     },
     {
-      "id": 23,
+      "id": 14,
       "name": "Product W",
-      "price": 42.30
+      "price": 42.3
     },
     {
-      "id": 24,
+      "id": 15,
       "name": "Product X",
-      "price": 16.50
+      "price": 16.5
     },
     {
-      "id": 25,
+      "id": 16,
       "name": "Product Y",
-      "price": 37.80
+      "price": 37.8
     },
     {
-      "id": 26,
+      "id": 17,
       "name": "Product Z",
-      "price": 24.40
+      "price": 24.4
     },
     {
-      "id": 27,
+      "id": 18,
       "name": "Product AA",
       "price": 48.75
     },
     {
-      "id": 28,
+      "id": 19,
       "name": "Product BB",
-      "price": 31.20
+      "price": 31.2
     }
   ]
 }
