@@ -31,7 +31,7 @@ Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
 1. Inicia JSON Server.
 
     ```bash
-    json-server --watch posts.json
+    json-server --watch orders.json
     ```
 
 2. JSON Server se ejecutará en `http://localhost:3000`.
